@@ -17,8 +17,12 @@ return {
           config = {
             workspaces = {
               notes = "~/Documents/notes/"
-            }
+            },
+            default_workspace = "notes",
           }
+        },
+        ["core.journal"] = {
+          workspace = "notes",
         }
         -- Add other modules here as needed
       },
